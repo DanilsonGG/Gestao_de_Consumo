@@ -45,7 +45,7 @@ Oferece as seguintes funcionalidades:
 Antes de iniciar o sistema, instalamos a biblioteca tabulate, que será usada para exibir os relatórios em formato de tabela, de forma organizada e legível.
 """
 
-!pip install tabulate
+#!pip install tabulate
 import pandas as pd
 from datetime import datetime
 from tabulate import tabulate
