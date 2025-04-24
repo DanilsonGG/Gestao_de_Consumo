@@ -2,10 +2,10 @@
 Sistema com o objetivo de monitorar e gerenciar o consumo de água, energia elétrica e gás em residências.
 
 Desenvolvido pelo Grupo 3:
--David Duarte
--Danilson Gonçalves
--Wilker Lopes
--Rafael Fortes
+David Duarte,
+Danilson Gonçalves,
+Wilker Lopes,
+e Rafael Fortes
 
 Curso: MADS – 2º ano
 
