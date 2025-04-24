@@ -7,7 +7,7 @@ Danilson Gonçalves,
 Wilker Lopes
 e Rafael Fortes.
 
-Displina: Metodologias Ágeis de Desenvolvimento de Software – 2º ano
+Displina: Metodologias Ágeis de Desenvolvimento de Software 
 
-Curso: Tecnologias de informação, Web e Multimédia
+Curso: Tecnologias de informação, Web e Multimédia – 2º ano
 
