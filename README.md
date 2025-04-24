@@ -4,8 +4,8 @@ Sistema com o objetivo de monitorar e gerenciar o consumo de água, energia elé
 Desenvolvido pelo Grupo 3:
 David Duarte,
 Danilson Gonçalves,
-Wilker Lopes,
-e Rafael Fortes
+Wilker Lopes
+e Rafael Fortes.
 
 Curso: MADS – 2º ano
 
