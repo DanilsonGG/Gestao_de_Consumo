@@ -1,4 +1,4 @@
-License MIT 
+ MIT License
 
 Copyright (c) 2025 Grupo 3 MADS 2º ano
 
