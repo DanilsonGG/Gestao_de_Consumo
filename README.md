@@ -8,5 +8,6 @@ Wilker Lopes
 e Rafael Fortes.
 
 Displina: Metodologias Ágeis de Desenvolvimento de Software – 2º ano
+
 Curso: Tecnologias de informação, Web e Multimédia
 
