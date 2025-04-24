@@ -7,5 +7,6 @@ Danilson Gonçalves,
 Wilker Lopes
 e Rafael Fortes.
 
-Curso: MADS – 2º ano
+Displina: Metodologias Ágeis de Desenvolvimento de Software – 2º ano
+Curso: Tecnologias de informação, Web e Multimédia
 
