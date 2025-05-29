@@ -11,7 +11,17 @@ Displina: Metodologias Ágeis de Desenvolvimento de Software
 
 Curso: Tecnologias de informação, Web e Multimédia – 2º ano
 
-Exemplos de uso do codigo:
+## 📄 Documentação Completa do Projeto  
+
+🔗 **[Acessar Documento Completo](https://docs.google.com/document/d/1EG7OtlMjdvNs43Q2vH6V4-s4NddUcvcaw1VI1k_O9N0/edit?usp=sharing)**  
+### O Que Você Encontrará Aqui:  
+✔ **Descrições detalhadas** do projeto e objetivos.  
+✔ **Registros de progresso** atualizados (sprints, tarefas concluídas).  
+✔ **Decisões importantes** tomadas pela equipa.  
+✔ **Dados técnicos** (arquitetura, tecnologias usadas).  
+✔ **Relatórios** (testes, erros corrigidos, próximos passos).  
+
+# Exemplos de uso do codigo:
 # Sistema de Monitoramento Residencial de Consumo
 
 Este sistema permite o **registro, validação, monitoramento e geração de relatórios** sobre o consumo de **água, energia e gás** em diferentes residências. Ideal para análises de eficiência energética e sustentabilidade doméstica.
