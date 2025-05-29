@@ -57,9 +57,9 @@ data.registrar_consumo("001", "energia", "01/2025", 350, 120.50)
 
 # Listar consumo
 # Exibe o histórico de consumo por tipo e casa, formatado em tabela, inserindo o codigo da casa (Exmplo:"001") e o que deseja listar, como agua, energia e gas.
-# exemplo: data.listar_consumo("001", "agua")
-           data.listar_consumo("001", "energia")
-           data.listar_consumo("001", "gas")
+# exemplo:  data.listar_consumo("001", "agua")
+          # data.listar_consumo("001", "energia")
+          # data.listar_consumo("001", "gas")
 data.listar_consumo("001", "agua")
 
 # Gerar relatórios gerais e individuais
