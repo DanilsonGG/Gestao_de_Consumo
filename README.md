@@ -13,7 +13,7 @@ Curso: Tecnologias de informação, Web e Multimédia – 2º ano
 
 ## 📄 Documentação Completa do Projeto  
 
-🔗 **[Acessar Documento Completo](https://docs.google.com/document/d/1EG7OtlMjdvNs43Q2vH6V4-s4NddUcvcaw1VI1k_O9N0/edit?usp=sharing)**  
+🔗 **[Acessar Documento Completo](https://docs.google.com/document/d/1ffJ3UgqVm5QwMyX5_xuHerhVnf9KYjAf/edit#heading=h.cklkopwvz07y)**  
 ### O Que Você Encontrará Aqui:  
 ✔ **Descrições detalhadas** do projeto e objetivos.  
 ✔ **Registros de progresso** atualizados (sprints, tarefas concluídas).  
