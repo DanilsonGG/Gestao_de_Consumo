@@ -16,7 +16,7 @@ Exemplos de uso do codigo:
 
 Este sistema permite o **registro, validação, monitoramento e geração de relatórios** sobre o consumo de **água, energia e gás** em diferentes residências. Ideal para análises de eficiência energética e sustentabilidade doméstica.
 
-## 🔧 Funcionalidades
+## Funcionalidades
 
 * Cadastro de casas com localização, morada e certificado energético;
 * Registro de consumo por tipo ("agua", "energia", "gas"), com validação dos dados;
@@ -34,7 +34,7 @@ pip install tabulate
 
 > Requer Python 3.6 (ou superior)
 
-## ⚙️ Como usar
+## Como usar o codigo
 
 ```python
 from sistema import ControladorCasas
