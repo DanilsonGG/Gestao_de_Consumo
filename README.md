@@ -21,7 +21,8 @@ Curso: Tecnologias de informação, Web e Multimédia – 2º ano
 ✔ **Dados técnicos** (arquitetura, tecnologias usadas).  
 ✔ **Relatórios** (testes, erros corrigidos, próximos passos).  
 
-# Exemplos de uso do codigo:
+
+# Exemplos de uso do codigo ⬇️
 # Sistema de Monitoramento Residencial de Consumo
 
 Este sistema permite o **registro, validação, monitoramento e geração de relatórios** sobre o consumo de **água, energia e gás** em diferentes residências. Ideal para análises de eficiência energética e sustentabilidade doméstica.
