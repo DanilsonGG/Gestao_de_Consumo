@@ -11,4 +11,4 @@ Displina: Metodologias Ágeis de Desenvolvimento de Software
 
 Curso: Tecnologias de informação, Web e Multimédia – 2º ano
 
-Exemplos:
+Exemplos de uso do codigo:
