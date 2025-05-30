@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Gestao_de_Consumo"
-version = "0.1.4"
+version = "0.1.5"
 description = "Pacote do Grupo 3"
 readme = "README.md"
 license = {text = "MIT"}
