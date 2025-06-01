@@ -284,6 +284,7 @@ class Validador:
         return True
 
 if __name__ == '__main__':
+    main()
     sistema = ControladorCasas()
 
     sistema.adicionar_casa("001", 41.1578, -8.6299, "Rua do Porto 123", "A+", "Casa Central")
