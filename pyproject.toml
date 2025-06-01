@@ -3,13 +3,17 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "gestao-consumo"
+name = "gestao-de-consumo"
 version = "0.1.0"
-description = "Pacote do Grupo 3"
+description = "Sistema de gestão de consumo residencial de água, energia e gás"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-  {name = "DanilsonGG", email = "grupo3@exemple.com"}
+    {name = "Grupo 3", email = "grupo3@exemplo.com"},
 ]
+license = {text = "MIT"}
 requires-python = ">=3.6"
-dependencies = ['tabulate', 'pandas']
+dependencies = ["pandas", "tabulate"]
+
+[project.scripts]
+gestao-consumo = "gestaodeconsumo.main:main"
