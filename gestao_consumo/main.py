@@ -43,14 +43,13 @@
 ##Instalação de Bibliotecas
 
 #Antes de iniciar o sistema, instalamos a biblioteca tabulate, que será usada para exibir os relatórios em formato de tabela, de forma organizada e legível.
-"""
 
 #!pip install tabulate
 import pandas as pd
 from datetime import datetime
 from tabulate import tabulate
 
-"""##Classe Casa
+##Classe Casa
 
 #Esta classe representa uma residência no sistema. Ao criar uma nova instância, ela armazena:
 
@@ -61,9 +60,6 @@ from tabulate import tabulate
 #- Registros de consumo de água, energia e gás.
 #- Registrar novos consumos com unidade e custo;
 #- Gerar os dados da casa em formato de relatório.
-
-
-"""
 
 class Casa:
     def __init__(self, id, latitude, longitude, morada, certificado_energetico, descricao):
@@ -120,17 +116,15 @@ class Casa:
         ]
         return info, self.consumo_agua, self.consumo_energia, self.consumo_gas
 
-"""##Classe ControladorCasas
+#Classe ControladorCasas
 
-É a classe que gerencia todas as casas cadastradas no sistema.
+#É a classe que gerencia todas as casas cadastradas no sistema.
 
-Com ela é possível:
-- Adicionar novas casas com verificação de dados;
-- Registrar consumo mensal;
-- Listar os consumos de cada tipo por casa;
-- Gerar relatórios de cada residência;
-
-"""
+#Com ela é possível:
+#- Adicionar novas casas com verificação de dados;
+#- Registrar consumo mensal;
+#- Listar os consumos de cada tipo por casa;
+#- Gerar relatórios de cada residência;
 
 class ControladorCasas:
     def __init__(self):
