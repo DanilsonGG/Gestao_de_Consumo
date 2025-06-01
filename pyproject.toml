@@ -12,4 +12,4 @@ authors = [
   {name = "DanilsonGG", email = "grupo3@exemple.com"}
 ]
 requires-python = ">=3.6"
-dependencies = []
+dependencies = ['tabulate', 'pandas']
