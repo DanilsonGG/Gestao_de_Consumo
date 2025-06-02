@@ -1,1 +1,1 @@
-from main import Casa, ControladorCasas, GeradorTabelas, Validador
+from .main import (Casa, ControladorCasas, GeradorTabelas, Validador)
