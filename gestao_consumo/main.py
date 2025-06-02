@@ -13,7 +13,7 @@
 #Metodologias Ágeis de Desenvolvimento de Software
 # Gestão de Consumo de Água, Energia e Gás
 
-## 📌 Sobre o Projeto
+##Sobre o Projeto
 
 #Este projeto tem como objetivo desenvolver um **monitoramento e gestão do consumo de água, energia elétrica e gás** em residências.
 
