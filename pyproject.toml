@@ -3,8 +3,8 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "gestao-de-consumo1"
-version = "0.1.3"
+name = "gestao-consumo"
+version = "0.1.0"
 description = "Sistema de gestão de consumo residencial de água, energia e gás"
 readme = "README.md"
 license = {text = "MIT"}
