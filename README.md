@@ -76,7 +76,7 @@ data.adicionar_casa("001", 41.1578, -8.6299, "Rua do Porto 123", "A+", "Casa Cen
 #          350 kWh de energia com custo de 120.50€ no mesmo período
 data.registrar_consumo("001", "agua", "01/2025", 15000, 45.75)
 data.registrar_consumo("001", "energia", "01/2025", 350, 120.50)
-data.registrar_consumo("001", "gas", "01/2025", 350, 120.50)
+data.registrar_consumo("001", "gas", "01/2025", 550, 70.90)
 
 # Listar consumo
 # Exibe o histórico de consumo por tipo e casa, formatado em tabela, inserindo o codigo da casa (Exmplo:"001") e o que deseja listar, como agua, energia e gas.
