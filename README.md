@@ -51,9 +51,9 @@ pip install tabulate
 ## Instalação de pacotes do codigo
 ```
 pip install gestao-consumo
-# ⚠️Atenção⚠️: Verifica sempre a versão do codigo no Pypi, estando na pagina do projeto, vai em "Histórico de lançamentos" e seleciona a versão,
-# Lá se pode encontrar um comando em especifico como "pip install gestao-consumo==0.1.1" onde o numero após o nome do projeto, é a versão mais recente
-# Caso se o comando instalar uma versão diferente.
+# ⚠️Atenção⚠️: Verifica sempre a versão do codigo no Pypi, estando na pagina do projeto, vai em "Histórico de lançamentos"
+# e seleciona a versão, lá se pode encontrar um comando em especifico como "pip install gestao-consumo==0.1.1" onde o numero
+# após o nome do projeto, é a versão mais recente, caso se o comando instalar uma versão diferente ou uma anterior.
 ```
 ## Como usar o codigo
 
