@@ -9,7 +9,7 @@ description = "Sistema de gestão de consumo residencial de água, energia e gá
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Grupo 3", email = "grupo3@exemplo.com"},
+    {name = "David Duarte, Danilson Gonçalves, Rafael Fortes e Wilker Lopes", email = "grupo3@exemplo.com"},
 ]
 requires-python = ">=3.6"
 dependencies = ["pandas", "tabulate"]
