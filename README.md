@@ -21,8 +21,10 @@ Curso: Tecnologias de informação, Web e Multimédia – 2º ano
 ✔ **Dados técnicos** (arquitetura, tecnologias usadas).  
 ✔ **Relatórios** (testes, erros corrigidos, próximos passos).  
 
+Para usar e testar o codigo, clica no link abaixo, as instruções de como usar codigo seguem-se logo abaixo do link.
+**Acessar o Pypi do projeto](https://pypi.org/project/gestao-consumo/)**
 
-# Exemplos de uso do codigo ⬇️
+# Como usar o codigo
 # Sistema de Monitoramento Residencial de Consumo
 
 Este sistema permite o **registro, validação, monitoramento e geração de relatórios** sobre o consumo de **água, energia e gás** em diferentes residências. Ideal para análises de eficiência energética e sustentabilidade doméstica.
@@ -45,6 +47,13 @@ pip install tabulate
 
 > Requer Python 3.6 (ou superior)
 
+## Instalação de pacotes do codigo
+```
+pip install gestao-consumo
+# ⚠️Atenção⚠️: Verifica sempre a versão do codigo no Pypi, estando na pagina do projeto, vai em "Histórico de lançamentos" e seleciona a versão,
+# Lá se pode encontrar um comando em especifico como "pip install gestao-consumo==0.1.1" onde o numero após o nome do projeto, é a versão mais recente
+# Caso se o comando instalar uma versão diferente.
+```
 ## Como usar o codigo
 
 ```python
