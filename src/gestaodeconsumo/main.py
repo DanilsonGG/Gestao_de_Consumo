@@ -277,48 +277,48 @@ class Validador:
             return False
         return True
 
-if __name__ == '__main__':
-    main()
-    sistema = ControladorCasas()
+#if __name__ == '__main__':
+    #main()
+    #sistema = ControladorCasas()
 
-    sistema.adicionar_casa("001", 41.1578, -8.6299, "Rua do Porto 123", "A+", "Casa Central")
-    sistema.adicionar_casa("002", 41.1495, -8.6108, "Avenida da Liberdade 456", "B", "Apartamento")
+    #sistema.adicionar_casa("001", 41.1578, -8.6299, "Rua do Porto 123", "A+", "Casa Central")
+    #sistema.adicionar_casa("002", 41.1495, -8.6108, "Avenida da Liberdade 456", "B", "Apartamento")
 
-    sistema.registrar_consumo("001", "agua", "01/2025", 15000, 45.75)
-    sistema.registrar_consumo("001", "energia", "01/2025", 350, 120.50)
-    sistema.registrar_consumo("001", "gas", "01/2025", 12.5, 35.90)
+    #sistema.registrar_consumo("001", "agua", "01/2025", 15000, 45.75)
+    #sistema.registrar_consumo("001", "energia", "01/2025", 350, 120.50)
+    #sistema.registrar_consumo("001", "gas", "01/2025", 12.5, 35.90)
 
-    sistema.registrar_consumo("002", "agua", "02/2025", 18000, 50.00)
-    sistema.registrar_consumo("002", "energia", "02/2025", 400, -130.00)
-    sistema.registrar_consumo("002", "gas", "02/2025", 14, -37.90)
+    #sistema.registrar_consumo("002", "agua", "02/2025", 18000, 50.00)
+    #sistema.registrar_consumo("002", "energia", "02/2025", 400, -130.00)
+    #sistema.registrar_consumo("002", "gas", "02/2025", 14, -37.90)
 
     #Erros
-    sistema.registrar_consumo("001", "energia", "01/2025", -100, 100)
-    sistema.registrar_consumo("001", "gas", "01/2025", 10, -30)
-    sistema.adicionar_casa("001", 41.15, -8.62, "Rua da Liberdade", "A+", "Casa Principal")
-    sistema.adicionar_casa("002", 41.12, -8.63, "Rua das Flores", "B", "Casa Secundária")
-    sistema.adicionar_casa("003", 41.10, -8.60, "Rua dos Erros", "X", "Casa com Certificado Inválido")
-    sistema.adicionar_casa("004", 95.00, -200.00, "Coordenada Errada", "C", "Casa com Coordenadas Inválidas")
-    sistema.registrar_consumo("001", "agua", "01/2025", 10000, 50)
-    sistema.registrar_consumo("001", "energia", "01/2025", 300, 120)
-    sistema.registrar_consumo("001", "gas", "01/2025", 15, 40)
+    #sistema.registrar_consumo("001", "energia", "01/2025", -100, 100)
+    #sistema.registrar_consumo("001", "gas", "01/2025", 10, -30)
+    #sistema.adicionar_casa("001", 41.15, -8.62, "Rua da Liberdade", "A+", "Casa Principal")
+    #sistema.adicionar_casa("002", 41.12, -8.63, "Rua das Flores", "B", "Casa Secundária")
+    #sistema.adicionar_casa("003", 41.10, -8.60, "Rua dos Erros", "X", "Casa com Certificado Inválido")
+    #sistema.adicionar_casa("004", 95.00, -200.00, "Coordenada Errada", "C", "Casa com Coordenadas Inválidas")
+    #sistema.registrar_consumo("001", "agua", "01/2025", 10000, 50)
+    #sistema.registrar_consumo("001", "energia", "01/2025", 300, 120)
+    #sistema.registrar_consumo("001", "gas", "01/2025", 15, 40)
 
-    sistema.registrar_consumo("002", "agua", "01/2025", -5000, 25)
-    sistema.registrar_consumo("002", "energia", "01/2025", 350, -50)
-    sistema.registrar_consumo("002", "gas", "01/2025", 10, 0)
-    sistema.registrar_consumo("001", "agua", "13/2025", 5000, 30)
-    sistema.registrar_consumo("001", "madeira", "01/2025", 100, 20)
-    sistema.registrar_consumo("001", "agua", "01/2025", 20000, 100)
+    #sistema.registrar_consumo("002", "agua", "01/2025", -5000, 25)
+    #sistema.registrar_consumo("002", "energia", "01/2025", 350, -50)
+    #sistema.registrar_consumo("002", "gas", "01/2025", 10, 0)
+    #sistema.registrar_consumo("001", "agua", "13/2025", 5000, 30)
+    #sistema.registrar_consumo("001", "madeira", "01/2025", 100, 20)
+    #sistema.registrar_consumo("001", "agua", "01/2025", 20000, 100)
 
-sistema.gerar_relatorio_geral()
+#sistema.gerar_relatorio_geral()
 
-sistema.gerar_relatorio_individual()
+#sistema.gerar_relatorio_individual()
 
-sistema.listar_consumo("001", "energia")
+#sistema.listar_consumo("001", "energia")
 
-sistema.listar_consumo("001", "agua")
+#sistema.listar_consumo("001", "agua")
 
-sistema.listar_consumo("002", "gas")
+#sistema.listar_consumo("002", "gas")
 
-sistema.verificar_integridade()
+#sistema.verificar_integridade()
 
