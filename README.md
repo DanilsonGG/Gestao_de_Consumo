@@ -58,10 +58,11 @@ pip install gestao-consumo
 ## Como usar o codigo
 
 ```python
-from sistema import ControladorCasas
+#Abrindo o terminal ou o PowerShell digite "python" para usar python, abaixo segue-se os comandos para usar o codigo...
+import gestaodeconsumo
 
 # Este codigo aqui, cria o sistema e instancia o controlador principal que gerencia todas as casas e consumos
-data = ControladorCasas()
+data = gestaodeconsumo.ControladorCasas()
 
 # Adicionar casas
 # Sintaxe do coidgo: data.adicionar_casa(codigo, latitude, longitude, morada, certificado_energetico, apelido)
