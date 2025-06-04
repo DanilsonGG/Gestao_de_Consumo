@@ -22,7 +22,7 @@ Curso: Tecnologias de informação, Web e Multimédia – 2º ano
 ✔ **Relatórios** (testes, erros corrigidos, próximos passos).  
 
 Para usar e testar o codigo, clica no link abaixo, as instruções de como usar codigo seguem-se logo abaixo do link.
-**Acessar o Pypi do projeto(https://pypi.org/project/gestao-consumo/)**
+**[Acessar o Pypi do projeto](https://pypi.org/project/gestao-consumo/)**
 
 # Como usar o codigo
 # Sistema de Monitoramento Residencial de Consumo
