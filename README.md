@@ -141,4 +141,7 @@ data.verificar_integridade()
 * O sistema ainda aceita dados com erros *após aviso*, para fins de auditoria ou testes.
 * Todos os relatórios são exibidos diretamente no terminal com formatação visual.
 
+# Sobre o Segundo Projeto 📝
 🔗 [Acessar o Segundo Projeto](https://github.com/WilkerJoseLopes/Projeto2G3)
+
+Abril 2025
