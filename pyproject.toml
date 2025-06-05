@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gestao-consumo"
-version = "0.1.1"
+version = "0.1.2"
 description = "Sistema de gestão de consumo residencial de água, energia e gás"
 readme = "README.md"
 license = {text = "MIT"}
