@@ -1,5 +1,5 @@
 # Gestão de Consumo de Água, Energia e Gás.
-Sistema com o objetivo de monitorar e gerenciar o consumo de água, energia elétrica e gás em residências.
+Sistema com o objetivo de monitorar e gerenciar o consumo de água, energia e gás em residências.
 
 Desenvolvido pelo Grupo 3:
 David Duarte,
@@ -38,8 +38,7 @@ Este sistema permite o **registro, validação, monitoramento e geração de rel
 * Detecção de erros/inconsistências nos dados;
 * Exibição em tabelas formatadas com `tabulate`;
 * Informação sobre o período de maior gasto por tipo de consumo.
-```
-```
+
 ## Instalação de Dependências
 Antes de usar o código, é necessário que o usuário instala as seguintes bibliotecas, caso não tenha:
 ```bash
@@ -69,7 +68,7 @@ data = gestaodeconsumo.ControladorCasas()
 ## Adicionar casas
 Sintaxe do coidgo: data.adicionar_casa(codigo, latitude, longitude, morada, certificado_energetico, apelido)
 adiciona a casa "001" com localização, morada e certificado
-```
+```python
 data.adicionar_casa("001", 41.1578, -8.6299, "Rua do Porto 123", "A+", "Casa Central")
 ```
 ## Registrar os consumos
