@@ -38,7 +38,8 @@ Este sistema permite o **registro, validação, monitoramento e geração de rel
 * Detecção de erros/inconsistências nos dados;
 * Exibição em tabelas formatadas com `tabulate`;
 * Informação sobre o período de maior gasto por tipo de consumo.
-
+```
+```
 ## Instalação de Dependências
 Antes de usar o código, é necessário que o usuário instala as seguintes bibliotecas, caso não tenha:
 ```bash
@@ -63,12 +64,14 @@ import gestaodeconsumo
 
 # Este codigo aqui, cria o sistema e instancia o controlador principal que gerencia todas as casas e consumos
 data = gestaodeconsumo.ControladorCasas()
-
+```
+```
 # Adicionar casas
 # Sintaxe do coidgo: data.adicionar_casa(codigo, latitude, longitude, morada, certificado_energetico, apelido)
 # adiciona a casa "001" com localização, morada e certificado
 data.adicionar_casa("001", 41.1578, -8.6299, "Rua do Porto 123", "A+", "Casa Central")
-
+```
+```
 # Registrar os consumos
 # Sintaxe: data.registrar_consumo(codigo, tipo, periodo, quantidade, custo)
 # Cada linha adiciona o consumo de um tipo (água, energia ou gás) para um mês específico
@@ -77,7 +80,8 @@ data.adicionar_casa("001", 41.1578, -8.6299, "Rua do Porto 123", "A+", "Casa Cen
 data.registrar_consumo("001", "agua", "01/2025", 15000, 45.75)
 data.registrar_consumo("001", "energia", "01/2025", 350, 120.50)
 data.registrar_consumo("001", "gas", "01/2025", 550, 70.90)
-
+```
+```
 # Listar consumo
 # Exibe o histórico de consumo por tipo e casa, formatado em tabela, inserindo o codigo da casa (Exmplo:"001") e o que deseja listar, como agua, energia e gas.
 # exemplo:  data.listar_consumo("001", "agua")
@@ -91,7 +95,8 @@ data.listar_consumo("001", "agua")
 # Ambos são exibidos diretamente no terminal
 data.gerar_relatorio_geral()
 data.gerar_relatorio_individual()
-
+```
+```
 # Verificar consistência dos dados
 # Checa se há consumos negativos, períodos repetidos ou certificados inválidos
 # Útil para auditoria de dados
