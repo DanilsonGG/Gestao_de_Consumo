@@ -41,7 +41,7 @@ Este sistema permite o **registro, validação, monitoramento e geração de rel
 
 ## Instalação de Dependências
 Antes de usar o código, é necessário que o usuário instala as seguintes bibliotecas, caso não tenha:
-```bash
+```python
 pip install pandas
 pip install tabulate
 ```
@@ -52,7 +52,7 @@ pip install tabulate
 ⚠️Atenção⚠️: Verifica sempre a versão do codigo no Pypi, estando na pagina do projeto, vai em "Histórico de lançamentos"
 e seleciona a versão, lá se pode encontrar um comando em especifico como "pip install gestao-consumo==0.1.1" onde o numero
 após o nome do projeto, é a versão mais recente, caso se o comando instalar uma versão diferente ou uma anterior.
-```
+```python
 pip install gestao-consumo
 ```
 ## Como usar o codigo
@@ -118,7 +118,7 @@ data.verificar_integridade()
 
 ## Certificados energéticos aceitos
 
-```
+```python
 "A+", "A", "B", "B-", "C", "D", "E", "F", "G"
 ```
 
