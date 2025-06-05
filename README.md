@@ -2,6 +2,7 @@
 Sistema com o objetivo de monitorar e gerenciar o consumo de água, energia e gás em residências.
 
 Desenvolvido pelo Grupo 3:
+
 David Duarte,
 Danilson Gonçalves,
 Wilker Lopes
@@ -11,22 +12,21 @@ Disciplina: Metodologias Ágeis de Desenvolvimento de Software
 
 Curso: Tecnologias de informação, Web e Multimédia – 2º ano
 
-## 📄 Documentação Completa do Projeto  
-
-🔗 **[Acessar Documento Completo](https://docs.google.com/document/d/1ffJ3UgqVm5QwMyX5_xuHerhVnf9KYjAf/edit#heading=h.cklkopwvz07y)**  
 ### O que encontrará aqui:  
 ✔ **Descrições detalhadas** do projeto e objetivos.  
 ✔ **Registros de progresso** atualizados (sprints, tarefas concluídas).  
 ✔ **Decisões importantes** tomadas pela equipa.  
 ✔ **Dados técnicos** (arquitetura, tecnologias usadas).  
-✔ **Relatórios** (testes, erros corrigidos, próximos passos).  
+✔ **Relatórios** (testes, erros corrigidos, próximos passos). 
 
+
+🔗 **[Acessar Documento Completo](https://docs.google.com/document/d/1ffJ3UgqVm5QwMyX5_xuHerhVnf9KYjAf/edit#heading=h.cklkopwvz07y)**  
+# Pypi do projeto
 Para usar e testar o codigo, clica no link abaixo, as instruções de como usar codigo seguem-se logo abaixo do link.
 
-**[Acessar o Pypi do projeto](https://pypi.org/project/gestao-consumo/)**
+🔗 **[Acessar o Pypi do projeto](https://pypi.org/project/gestao-consumo/)**
 
 # Como usar o codigo
-# Sistema de Monitoramento Residencial de Consumo
 
 Este sistema permite o **registro, validação, monitoramento e geração de relatórios** sobre o consumo de **água, energia e gás** em diferentes residências. Ideal para análises de eficiência energética e sustentabilidade doméstica.
 
@@ -49,8 +49,8 @@ pip install tabulate
 > Requer Python 3.6 (ou superior)
 
 ## Instalação de pacotes do codigo
-⚠️Atenção⚠️: Verifica sempre a versão do codigo no Pypi, estando na pagina do projeto, vai em "Histórico de lançamentos"
-e seleciona a versão, lá se pode encontrar um comando em especifico como "pip install gestao-consumo==0.1.1" onde o numero
+Atenção: Verifica sempre a versão do codigo no Pypi, estando na pagina do projeto, vai em "Histórico de lançamentos"
+e seleciona a versão, lá se pode encontrar um comando em especifico como "pip install gestao-consumo==0.1.2" onde o numero
 após o nome do projeto, é a versão mais recente, caso se o comando instalar uma versão diferente ou uma anterior.
 ```python
 pip install gestao-consumo
