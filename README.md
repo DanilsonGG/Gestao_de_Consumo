@@ -50,19 +50,20 @@ pip install tabulate
 > Requer Python 3.6 (ou superior)
 
 ## Instalação de pacotes do codigo
+⚠️Atenção⚠️: Verifica sempre a versão do codigo no Pypi, estando na pagina do projeto, vai em "Histórico de lançamentos"
+e seleciona a versão, lá se pode encontrar um comando em especifico como "pip install gestao-consumo==0.1.1" onde o numero
+após o nome do projeto, é a versão mais recente, caso se o comando instalar uma versão diferente ou uma anterior.
 ```
 pip install gestao-consumo
-# ⚠️Atenção⚠️: Verifica sempre a versão do codigo no Pypi, estando na pagina do projeto, vai em "Histórico de lançamentos"
-# e seleciona a versão, lá se pode encontrar um comando em especifico como "pip install gestao-consumo==0.1.1" onde o numero
-# após o nome do projeto, é a versão mais recente, caso se o comando instalar uma versão diferente ou uma anterior.
 ```
 ## Como usar o codigo
 
+Abrindo o terminal ou o PowerShell digite "python" para usar python, abaixo segue-se os comandos para usar o codigo...
 ```python
-#Abrindo o terminal ou o PowerShell digite "python" para usar python, abaixo segue-se os comandos para usar o codigo...
 import gestaodeconsumo
-
-# Este codigo aqui, cria o sistema e instancia o controlador principal que gerencia todas as casas e consumos
+```
+Este codigo aqui, cria o sistema e instancia o controlador principal que gerencia todas as casas e consumos
+```python
 data = gestaodeconsumo.ControladorCasas()
 ```
 ## Adicionar casas
@@ -76,34 +77,33 @@ Sintaxe: data.registrar_consumo(codigo, tipo, periodo, quantidade, custo)
 Cada linha adiciona o consumo de um tipo (água, energia ou gás) para um mês específico
 Exemplo:  15000 litros de água com custo de 45.75€ em jan/2025
           350 kWh de energia com custo de 120.50€ no mesmo período
-```
+```python
 data.registrar_consumo("001", "agua", "01/2025", 15000, 45.75)
 data.registrar_consumo("001", "energia", "01/2025", 350, 120.50)
 data.registrar_consumo("001", "gas", "01/2025", 550, 70.90)
 ```
-```
-# Listar consumo
-# Exibe o histórico de consumo por tipo e casa, formatado em tabela, inserindo o codigo da casa (Exmplo:"001") e o que deseja listar, como agua, energia e gas.
-# exemplo:  data.listar_consumo("001", "agua")
-            data.listar_consumo("001", "energia")
-            data.listar_consumo("001", "gas")
+## Listar consumo
+Exibe o histórico de consumo por tipo e casa, formatado em tabela, inserindo o codigo da casa (Exmplo:"001") e o que deseja listar, como agua, energia e gas.
+```python
 data.listar_consumo("001", "agua")
+data.listar_consumo("001", "energia")
+data.listar_consumo("001", "gas")
 ```
 ## Gerar relatórios gerais e individuais
 Relatório geral: consolida o consumo de todas as casas
 Relatório individual: detalha o consumo por casa
 Ambos são exibidos diretamente no terminal
-```
+```python
 data.gerar_relatorio_geral()
 data.gerar_relatorio_individual()
 ```
 ## Verificar consistência dos dados
-Checa se há consumos negativos, períodos repetidos ou certificados inválidos
-Útil para auditoria de dados
-```
-Verificar consistência dos dados
-Checa se há consumos negativos, períodos repetidos ou certificados inválidos
-Útil para auditoria de dados
+- Verifica se há consumos negativos, períodos repetidos ou certificados inválidos
+- Útil para auditoria de dados
+- Verificar consistência dos dados
+- Checa se há consumos negativos, períodos repetidos ou certificados inválidos
+- Útil para auditoria de dados
+```python
 data.verificar_integridade()
 ```
 
